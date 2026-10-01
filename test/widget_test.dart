@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:custom_text_field/main.dart';
+import 'package:custom_input_field/main.dart';
 
 void main() {
   testWidgets('validates, corrects, toggles password, submits and resets', (

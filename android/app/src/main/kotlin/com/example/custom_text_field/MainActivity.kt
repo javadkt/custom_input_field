@@ -1,4 +1,4 @@
-package com.example.custom_text_field
+package com.example.custom_input_field
 
 import io.flutter.embedding.android.FlutterActivity
 

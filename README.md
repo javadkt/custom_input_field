@@ -1,17 +1,39 @@
-# custom_text_field
+# custom_input_field
 
-A new Flutter project.
+Build one reusable Flutter input widget for email, password, username, and phone, without repeating `TextFormField` setup on every screen.
 
-## Getting Started
+This project demonstrates how to keep field configuration flexible per screen while sharing one consistent input UI and interaction pattern.
 
-This project is a starting point for a Flutter application.
+## What this project includes
 
-A few resources to get you started if this is your first Flutter project:
+- Reusable input widget for multiple field types
+- Custom validation and clear error messages
+- Shake animations when validation fails
+- Password visibility toggle behavior
+- Controller-based field handling
+- Field-specific keyboard and autofill settings
+- Form submit and reset flows
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## How it works
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Each screen provides:
+  - Field values/controllers
+  - Validation rules
+  - Labels/placeholders and field options
+- The shared input widget handles:
+  - Rendering and styling
+  - Validation feedback presentation
+  - Animation and interaction states
+
+## Why use this pattern
+
+- Reduces repeated form code
+- Keeps behavior consistent across screens
+- Makes form fields easier to maintain and extend
+
+## Run the project
+
+```bash
+flutter pub get
+flutter run
+```
